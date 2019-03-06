@@ -29,6 +29,17 @@ const txtAry = Array.from(document.querySelectorAll('.univ'))
 txtAry.map( (i) => console.log( i.innerHTML.replace(/&amp;/g,'&') ) )
 ```
 
+## Grid 
+
+- Total width : 636px -> marges ext (hors grille 6px X2)
+- Grid total width 624px (external marges 4px 2X)
+- Vertical rythm 8px Gutter height 8px | Row Height 4 x Gutter Height
+
+| column | column width | gutter width | external gutter |
+| :---:  | :---:        | :---:        | :---:           |
+| 12     | 44           | 8            | 4               |
+
+
 ## alias service internet archive
 
 rm -rf remote_alias && ln -s '/Volumes/service internetArchives$/NEWSLETTERS/TRIGGER/RELANCE_PANIER/CONFORT_VIE' remote_alias && open remote_alias
